@@ -1,0 +1,12 @@
+a=int(input('enter number'))
+b=int(input('enter number'))
+if a<b:
+    small=a 
+else:
+     small=b
+i=1       
+while i<small:
+    if a%i==0 and b%i==0:
+        hcf=i
+    i+=1
+print('hcf is:',hcf)
